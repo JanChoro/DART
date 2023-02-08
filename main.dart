@@ -217,7 +217,94 @@ descuento los 15 y los 30.*/
 //       print('TOTAL: ${total + compra}');
   
   
+  /*   --------------------------------------------------------------------------
+  Punto 4*/
   
+//  double calificaciones = 0;// 45%
+// double sumaCalificaciones = 0;
+// double examFinal =0; //30%
+// double trabajoFinal =0; // 25%
+// double calificacionFinal =0; //
+
+// print('Calificaciones parciales, estas equivalen al 45%');
+//   for (var i = 1; i <= 3; i++) {
+//       print('NOTA $i');
+//       calificaciones = double.parse( stdin.readLineSync()! );
+//       sumaCalificaciones += calificaciones;
+//   }
+
+//   sumaCalificaciones = sumaCalificaciones/3;
+//   sumaCalificaciones *=  0.45;
+//   print("-----");
+//   print('Ingresa la calificación final del examen');
+//   examFinal = double.parse( stdin.readLineSync()! );
+//   examFinal *= 0.30;
+//   print("-----");
+//   print('Ingresa la calificación del trabajo final');
+//   trabajoFinal = double.parse( stdin.readLineSync()! );
+//   trabajoFinal *= 0.25;
+
+//   calificacionFinal = sumaCalificaciones + examFinal + trabajoFinal;
+
+//   print('Suma de calificaciones: $sumaCalificaciones');
+//   print('Calificación final del examen: $examFinal');
+//   print('Calificación del trabajo final: $trabajoFinal');
+//   print("-----");
+//   print('NOTA:  $calificacionFinal');  
+  
+  
+  
+  /*   --------------------------------------------------------------------------
+  Punto 5*/
+  
+//   int hombre = 0;
+//   int mujer = 0;
+//   String? continuar = "";
+
+//   do {
+//     print('¿Qué eres?:  H (Hombre) M(Mujer)');
+    
+//     String? genero = stdin.readLineSync();
+
+//     if (genero == "H") {
+//       hombre++;
+//     }
+
+//     else if(genero == "M"){
+//       mujer++;
+    
+//     }else{
+//       print('Genero no admitido');
+//     }
+
+//     // Continuar
+//     print('¿Deseas salir?  N o S');
+//     continuar = stdin.readLineSync();
+
+//   } while (continuar != "s");
+
+//   print('CANTIDAD HOMBRES: $hombre');
+//   print('CANTIDAD MUJERES: $mujer');
+  
+  /*   --------------------------------------------------------------------------
+  Punto 6*/
+  
+  
+  
+  /*   --------------------------------------------------------------------------
+  Punto 7*/
+  
+  
+  /*   --------------------------------------------------------------------------
+  Punto 8*/
+  
+  
+  /*   --------------------------------------------------------------------------
+  Punto 9*/
+  
+  
+  /*   --------------------------------------------------------------------------
+  Punto 10*/
 }//main
 
 
