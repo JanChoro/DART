@@ -63,7 +63,91 @@ void main(List<String> args){
   String? nombreMascota = stdin.readLineSync(); 
 
   print('El nombre es $nombreMascota');
+  
+  
+  /*   --------------------------------------------------------------------------
+  Punto 1*/
+  
+  // Variables
+//   String? nameInvitado = "";
+//   String? editInvitado = "";
+//   String? delInvitado = "";
+//   String? newInvit = "";
+//   int contador = 1;
+// // Lista de invitados
+//   List invitadosList = [];
 
+//   // Ingresamos el número de invitados
+//   print('Ingresa el número de invitados');
+//   int? numIvitados = int.parse(stdin.readLineSync()!);
+//   // OPCIONES
+
+//   do {
+//     print(
+//         'Elige la opción:::   1.) Ingresar Invitado --  2.) Editar Invitado --  3.) Eliminar Invitado --  4.) Mostrar Invitado --  0.)SALIR');
+//     int opc = int.parse(stdin.readLineSync()!);
+
+//     switch (opc) {
+//       case 1:
+//         // Ingresar Invitado
+//         print('Ingresar Nombre Invitado');
+//         nameInvitado = stdin.readLineSync();
+//         invitadosList.add(nameInvitado);
+//         print('Usuario ingresado');
+//         break;
+
+//       case 2:
+//         // Editar Invitado
+//         print('Ingesa el nombre del invitado a editar');
+//         editInvitado = stdin.readLineSync();
+
+//         print('Ingrsa el nuevo nombre');
+//         newInvit = stdin.readLineSync();
+
+//         // busca al invitado
+//         for (var i = 0; i < invitadosList.length; i++) {
+//           if (invitadosList[i] == editInvitado) {
+//             invitadosList[i] = newInvit;
+//           }
+//         }
+
+//         if (editInvitado == newInvit) {
+//           print('Usuario editado correctamente');
+//         } else {
+//           print('El usuario ingresado no existe');
+//         }
+//         break;
+
+//         case 3:
+//         // Eliminar Invitado 
+//         print('Ingresa el nombre del usuario a eliminar: ');
+//         delInvitado = stdin.readLineSync();
+//       // Consultamos el arreglo
+        
+// invitadosList.remove(delInvitado);
+
+//         break;
+
+//         case 4:
+//           // Mostrar Invitados
+//           print(invitadosList);
+//         break;
+
+//         case 0:
+//           exit(0);
+
+//       default:
+//     }
+
+//     contador++;
+//   } while (contador <= numIvitados);
+
+  
+  
+  
+  
+  
+  
 }//main
 
 
