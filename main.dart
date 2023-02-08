@@ -144,7 +144,77 @@ void main(List<String> args){
 
   
   
+
+  /*   --------------------------------------------------------------------------
+  Punto 2*/  
   
+//   double? sueldoBase = 0;
+// int cantProducos = 0;
+// double comision = 0;
+// double total =0;
+// double tenPorcent = 0.10;
+
+//   print('Ingrese su sueldo base');
+//   sueldoBase = double.parse(stdin.readLineSync()! );
+//   print('ingrese la cantidad de productos');
+//   cantProducos = int.parse( stdin.readLineSync()! );
+
+//     // Comparamos
+//     if( cantProducos > 30 ){
+//        comision = sueldoBase * tenPorcent;
+//     }
+//   total = sueldoBase + comision;
+
+//     print('Valor - Comisión: $comision');
+//     print('TOTAL: $total');
+  
+  
+  
+  /*   --------------------------------------------------------------------------
+  Punto 3*/
+  
+  /*3. La empresa Flash necesita realizar un programa que muestre el valor total
+a pagar por una compra, teniendo en cuenta un descuento. El valor del
+descuento aplica dependiendo el número del día del mes. No se ofrece
+descuento los 15 y los 30.*/
+  
+//   int dia = 0;
+//   double compra = 0;
+//   double descuento = 0;
+//   double total = 0;
+
+
+//   print('Ingrese el valor de la compra');
+//   compra = double.parse( stdin.readLineSync()! );
+
+//   print('Ingresa el día de mes');
+//   dia = int.parse( stdin.readLineSync()! );
+
+//   /* APLICANDO DESCUENTO      
+//       15 y 30 NO         */
+
+//       for (var i = 0; i <= 31; i++) {
+
+//         if (dia == i) {
+//           descuento = i/100;
+
+//         } 
+
+//         if (dia == 15 || dia == 30) {
+//           descuento = 0;
+//         }
+
+//       }
+
+//       total = compra * descuento;
+
+//       print('Compra: $compra');
+//       if (descuento == 0) {
+//         print('Lo sentimos, este día no tiene descuento :(');
+//       }
+      
+//       print('Descuento: ${descuento*100} %');
+//       print('TOTAL: ${total + compra}');
   
   
   
