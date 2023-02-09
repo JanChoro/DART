@@ -347,14 +347,102 @@ descuento los 15 y los 30.*/
   Punto 8*/
   
   
+//   int edad = 0;
+//   String categoria = "";
+//   print('Bienvenido futbolero');
+//   print('Ingresa tu edad para saber tu categoría');
+//   edad = int.parse(stdin.readLineSync()!);
+
+//   // COMPARAMOS EDADES
+//   if (edad > 6 && edad <= 17) {
+//     categoria = "JUNIOR";
+//   } else if (edad >= 18 && edad <= 29) {
+//     categoria = "ADULTOS";
+//   } else if (edad >= 30 && edad <= 39) {
+//     categoria = "SENIOR";
+//   } else if (edad >= 40 && edad <= 49) {
+//     categoria = "SUPER SENIOR";
+//   } else if (edad >= 50 && edad <= 59) {
+//     categoria = "VETERANOS";
+//   } else if (edad >= 60 && edad <= 69) {
+//     categoria = "SUPER VETERANOS";
+//     // por si no aplica la edad
+//   } else if (edad < 6 || edad >= 70) {
+//     categoria = 'Lo sentimos, no perteneces a ninguna categoría :(';
+//   }
+
+//   print('CATEGORÍA: $categoria');
 
   
   /*   --------------------------------------------------------------------------
   Punto 9*/
   
+    // int num = 0;
+  // String respuesta = "";
+  // print('Ingresa un número del 1 al 99');
+  // num = int.parse(stdin.readLineSync()!);
+
+  // // comparamos
+  // if (num > 1 && num < 100) {
+  //   // 2 dígitos
+  //   if (num > 9) {
+  //     respuesta = "Número de 2 dígitos";
+  //     // 1 dígito
+  //   } else {
+  //     respuesta = "Número de 1 dígito";
+  //   }
+  // } else {
+  //   respuesta = "Número fuera de rango";
+  // }
+
+  // // RESPONDEMOS:
+  // print(respuesta);
   
   /*   --------------------------------------------------------------------------
   Punto 10*/
+  
+     // // Datos reales
+  // String validarUsuario = "juan";
+  // String validarPass = "3312";
+  // // usuario
+  // String? usuario = "";
+  // String? pass = "";
+  // int intentos = 0;
+
+  // print('Login - Entidad Financiera');
+
+  // for (var i = 0; i < 3; i++) {
+  //   print('Ingresa tu usuario: ');
+  //   usuario = stdin.readLineSync();
+  //   print('Ingresa tu Contraseña: ');
+  //   pass = stdin.readLineSync();
+  //   // VALIDAMOS LOS DATOS
+  //   if (usuario == validarUsuario && pass == validarPass) {
+  //     print('BIENVENIDO');
+  //     print('A financiar se dijo papa');
+  //     intentos++;
+  //     print('Número de Intentos: $intentos');
+  //     i = i + 2;
+  //     // Incorrecto
+  //   } else {
+  //     if (usuario != validarUsuario) {
+  //       //usuario
+  //       print('Usuario Incorrecto');
+  //     }
+  //     if (pass != validarPass) {
+  //       //contraseña
+  //       print('Contraseña incorrecta');
+  //     }
+
+  //     print('Por favor intenta de nuevo');
+  //     intentos++;
+  //     print('Número de Intentos: $intentos');
+  //     if (intentos == 3) {
+  //       print('Cuenta bloqueada');
+  //     }
+  //   }
+  // } //for
+  
 }//main
 
 
