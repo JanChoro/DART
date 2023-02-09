@@ -289,15 +289,65 @@ descuento los 15 y los 30.*/
   /*   --------------------------------------------------------------------------
   Punto 6*/
   
-  
+//   double salario = 0;
+
+// // Horas trabajadas
+//   print('Ingresa tus horas trabajadas');
+//   int? horasT = int.parse(stdin.readLineSync()!);
+
+//   //Valor horas
+//   print('Ingresa el valor por hora');
+//   double valorH = double.parse(stdin.readLineSync()!);
+
+// // calculamos salario
+//   salario = (valorH * horasT);
+
+//   // SALARIO:
+//   print('Horas trabajadas: $horasT');
+//   print('Valor por hora: $valorH');
+//   print('SALARIO: $salario');
   
   /*   --------------------------------------------------------------------------
   Punto 7*/
+
+//   double descuento = 0.20;
+//   double iva = 0.19;
+//   double total = 0;
+//   double valorPC = 0;
+
+// // Valor pc
+//   print('Ingresa el valor del PC');
+//   valorPC = double.parse(stdin.readLineSync()!);
+
+//   // CALCULAMOS:
+//   if (valorPC >= 1000000) {
+//     descuento *= valorPC;
+//     valorPC -= descuento;
+//     // IVA
+//     iva *= valorPC;
+//     total = valorPC + iva;
+//     print('¡FELICIDADES! TIENES UN DESCUENTO DEL 20%');
+//   } else {
+//     // IVA
+//     descuento = 0;
+//     iva *= valorPC;
+//     total = valorPC + iva;
+//   }
+
+//   // MOSTRAMOS:
+//   print('FACTURA:: 001');
+//   print('::::::::::::::::: ');
+//   print('VALOR PC:: $valorPC');
+//   print('IVA:: $iva');
+//   print('DESCUENTO:: $descuento');
+//   print('TOTAL:: $total');
   
   
   /*   --------------------------------------------------------------------------
   Punto 8*/
   
+  
+
   
   /*   --------------------------------------------------------------------------
   Punto 9*/
