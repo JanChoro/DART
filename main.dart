@@ -1,74 +1,16 @@
 import 'dart:io';
-void main(List<String> args){
-//TIPOS DE DATOS:
-// var nombre = "Juan";
-//   int edad = 18;
-
-//   print('$nombre tiene $edad años');
-
-//   bool? tieneMascota; // ? = no es obligatorio que la variable tenga valor
-//   print(tieneMascota);
-// var num1= 3;
-// var num2 = 2;
-
-// print('El valor de la suma es: ${num1 + num2}');
-/*-----------------------
-  ARREGLOS*/ 
-// String nombre = "Juan";
-//  print('A= ${nombre[2]}');
-
-//  List<String> frutas = ['Pera', 'Guayaba', 'Banano', 'Manzana'];
-//  frutas.forEach((fruta) {print(fruta);});
-
-// frutas.add('Zapote');
-// // Buscar el índice de un valor
-// print (frutas.indexOf('Guayaba'));//Devuelve la posición el valor buscado
-
-// frutas.forEach((fruta) {print(fruta);});
-// frutas.remove('Banano');
-
-//MAPS- DICCIONARIO
-// Map usuario = {
-//   'nombre' : 'Esteban',
-//   'apellido' : 'Gallego',
-//   'edad' : 18,
-//   'tieneMascota' : false
-// };
-
-// //dynamic: Se puede cambiar de valor la variale
-//   dynamic peso = 40.5;
-//   peso = 40;
-//   peso = '40';
-
-//EJERCICIOS
-//   List amigos = [
-//     {'nombre': 'Juan', 'edad' : 15},
-//     {'nombre': 'Jose', 'edad' : 15},
-//     {'nombre': 'Manuel', 'edad' : 15},
-//     {'nombre': 'Maria', 'edad' : 15},
-//     {'nombre': 'Roberto', 'edad' : 15}
-//   ];
-
-//   double promedio = 0;
-
-//   amigos.forEach((amigo) { print(
-//     promedio += amigo['edad']
-//     );});
-
-// promedio = promedio/5;
-// print('PROMEDIO: $promedio');
-
-//INGRESAR DATOS POR CONSOLA
-  print('Nombre Mascota');
-  String? nombreMascota = stdin.readLineSync(); 
-
-  print('El nombre es $nombreMascota');
-  
+void main(List<String> args){  
   
   /*   --------------------------------------------------------------------------
-  Punto 1*/
+  PUNTO 1: 
+La empresa Picardía le ha contratado para desarrollar un programa que
+gestione la información de los invitados a un evento. Se debe tener un
+menú con las opciones: Ingresar invitado (solo se pide el nombre), Editar
+invitado, Eliminar invitado, Mostar invitados, Cantidad invitados registrados,
+Salir.
+  */
   
-  // Variables
+  // // Variables
 //   String? nameInvitado = "";
 //   String? editInvitado = "";
 //   String? delInvitado = "";
@@ -146,7 +88,13 @@ void main(List<String> args){
   
 
   /*   --------------------------------------------------------------------------
-  Punto 2*/  
+  PUNTO 2: 
+Un vendedor recibe un sueldo base y se le dará un 10% extra por comisión
+de sus ventas de productos. Para que se aplique la comisión, la persona
+debe vender más de 30 productos. Se debe mostrar el dinero de la
+comisión (será cero si vende menos de 30 productos) y el valor total a
+pagar teniendo en cuenta su sueldo base.
+  */  
   
 //   double? sueldoBase = 0;
 // int cantProducos = 0;
@@ -171,7 +119,12 @@ void main(List<String> args){
   
   
   /*   --------------------------------------------------------------------------
-  Punto 3*/
+  PUNTO 3: 
+ La empresa Flash necesita realizar un programa que muestre el valor total
+a pagar por una compra, teniendo en cuenta un descuento. El valor del
+descuento aplica dependiendo el número del día del mes. No se ofrece
+descuento los 15 y los 30.
+  */
   
   /*3. La empresa Flash necesita realizar un programa que muestre el valor total
 a pagar por una compra, teniendo en cuenta un descuento. El valor del
@@ -218,7 +171,13 @@ descuento los 15 y los 30.*/
   
   
   /*   --------------------------------------------------------------------------
-  Punto 4*/
+  PUNTO 4:
+Un alumno desea saber cuál será su calificación final en la materia de
+Móviles. Dicha calificación se compone de los siguientes porcentajes:
+45% del promedio de sus tres calificaciones parciales.
+30% de la calificación del examen final.
+25% de la calificación de un trabajo final.
+  */
   
 //  double calificaciones = 0;// 45%
 // double sumaCalificaciones = 0;
@@ -255,7 +214,11 @@ descuento los 15 y los 30.*/
   
   
   /*   --------------------------------------------------------------------------
-  Punto 5*/
+  PUNTO 5:
+Solicite el ingreso de X cantidad de géneros biológicos. Para dejar de
+ingresar se debe presionar la tecla “s”, al finalizar se muestra la cantidad de
+mujeres y hombres ingresados.
+  */
   
 //   int hombre = 0;
 //   int mujer = 0;
@@ -287,7 +250,10 @@ descuento los 15 y los 30.*/
 //   print('CANTIDAD MUJERES: $mujer');
   
   /*   --------------------------------------------------------------------------
-  Punto 6*/
+  PUNTO 6:
+Dada las horas trabajadas de una persona y el valor por hora. Calcular su
+salario e imprimirlo.
+  */
   
 //   double salario = 0;
 
@@ -308,7 +274,11 @@ descuento los 15 y los 30.*/
 //   print('SALARIO: $salario');
   
   /*   --------------------------------------------------------------------------
-  Punto 7*/
+  PUNTO 7
+El proveedor de computadores Compu Store, ofrece descuento del 20%, si
+cuesta $1.000.000 o más. Determinar cuánto pagará, con IVA incluido
+(19%), un cliente si la compra cumple con esta condición.
+  */
 
 //   double descuento = 0.20;
 //   double iva = 0.19;
@@ -344,7 +314,17 @@ descuento los 15 y los 30.*/
   
   
   /*   --------------------------------------------------------------------------
-  Punto 8*/
+  PUNTO 8:
+Una escuela de futbol desea conocer en que categoría se encuentra una
+persona cuando ingrese su edad. Se debe tener en cuenta la siguiente
+información:
+- JUNIOR: De 6 a 17 años.
+- ADULTOS: De 18 a 29 años.
+- SENIOR: De 30 a 39 años.
+- SUPER SENIOR: De 40 a 49 años.
+- VETERANOS: De 50 a 59 años.
+- SUPER VETERANOS: De 60 a 69 años.
+  */
   
   
 //   int edad = 0;
@@ -375,7 +355,10 @@ descuento los 15 y los 30.*/
 
   
   /*   --------------------------------------------------------------------------
-  Punto 9*/
+  PUNTO 9:
+Pedir al usuario ingresar un número del 1 al 99. Mostrar por pantalla si el
+número es de uno o dos dígitos.
+  */
   
     // int num = 0;
   // String respuesta = "";
@@ -399,7 +382,12 @@ descuento los 15 y los 30.*/
   // print(respuesta);
   
   /*   --------------------------------------------------------------------------
-  Punto 10*/
+  PUNTO 10:
+Simular el ingreso a una entidad financiera donde se debe digitar el usuario
+y la contraseña, si al momento de ingresar la información es incorrecta, se
+debe permitir volver a intentar 2 veces más. En caso de falle todos los
+intentos debe mostrar el mensaje “Cuenta bloqueada”.
+  */
   
      // // Datos reales
   // String validarUsuario = "juan";
