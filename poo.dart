@@ -81,3 +81,62 @@ if (dato != null) {
 String toString() => "Nombre: $nombre   ---   Poder: $poder \n";
 
 }
+//-------------------------------------//MAIN-------------------------------------
+
+
+import 'dart:io';
+
+import '../lib/heroe.dart';
+
+void main(List<String> arguments) {
+  // Heroe h =  Heroe('Hulk', 'fuerza');
+  // h.info();
+
+  // Heroe.saludar('one punch Man');
+
+print('Bienvenido \n ¿Que deseas hacer?');
+print(' 1.) Agregar heroe \n 2.) Editar heroe \n 3.) Eliminar heroe \n 4.) Busar heroe \n 5.) Mostrar heroes (Lista) \n');
+int opc = int.parse( stdin.readLineSync()! );
+
+String? decision = "";
+
+do {
+
+
+  // Menu
+switch (opc) {
+  case 1:
+    Heroe.agregarHeroe();
+    break;
+
+  case 2:
+    Heroe.actualizarHeroe();
+  break;  
+
+  case 3:
+    Heroe.eliminarHeroe();
+  break;
+
+  case 4:
+    Heroe.buscarHeroe();
+  break; 
+
+  case 5:
+    Heroe.mostrarHeroes();
+  break;
+  default:
+}
+
+  // Decidimos
+  print('¿Quieres continuar? [S] [N]');
+  decision = stdin.readLineSync();
+
+  if (decision != "N") {
+     print('1.) Agregar heroe \n 2.) Editar heroe \n 3.) Eliminar heroe \n 4.) Busar heroe \n 5.) Mostrar heroes (Lista) \n');
+opc = int.parse( stdin.readLineSync()! );
+  }
+
+} while (decision != "N");
+
+}
+
